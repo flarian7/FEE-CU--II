@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <center>
+    <h1>Input Field</h1>
+    <input type="text">
+    <br />
+    <br />
+    <input type="password">
+    <input type="color">
+    <br />
+    <br />
+    <input type="time">
+    <br />
+    <br />
+    <input type="date">
+    
+    <hr /><hr/>
+
+    
+        <h1>Labels and Placeholder</h1>
+        <label for="username">User Name :</label>
+        <input type="text" id="username" placeholder="enter your username">
+        <!-- Id of the input and label ka for same hone chahiye undono ko connect krne ke liye -->
+        <br /><br />
+        <label for="password">Password : </label>
+        <input type="password" id="password" placeholder="enter your password">
+        <button>Submit</button>
+
+    <hr/>
+    <hr />
+   
+    <h1>Checkbox</h1>
+        <label for="age">Age : </label>
+        <input type="checkbox" id="age" placeholder="enter your age" checked>
+        <br>
+        <hr />
+        
+    <h1>Radio buttons</h1>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="gender">Female</label>
+
+    
+    <br />
+    <hr/>
+    <label for="volume">Volume</label>
+    <input type="range" min="0" max="100" step="80" value="30">
+    <br />
+    <hr />
+    <label for="dropdown">Country : </label>
+    <select id="dropdown" name="dropdown">
+        <option value="India">IND</option>
+        <option value="United States Of America">USA</option>
+        <option value="Canada">CAN</option>
+        <option value="Netherlands">NED</option>
+    </select>
+    <br /><br />
+   
+    
+    </center>
+</form>
+</body>
+</html>
